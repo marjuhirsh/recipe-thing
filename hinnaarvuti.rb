@@ -21,7 +21,6 @@ def input_is_numeric?(input)
   if input == ''
     return false
   end
-  binding.pry
   input.to_i.to_s == input # returns true if input contains only digits
 end
 
